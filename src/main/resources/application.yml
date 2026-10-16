@@ -1,0 +1,12 @@
+wind-alert:
+  latitude: -22.94113
+  longitude: -43.19211
+  threshold-kmh: 40
+  forecast-start-hour: 8
+  forecast-end-hour: 20
+  message-wind: "Vai ventar, fecha o toldo!"
+  message-calm: "Já passou o vento, pode abrir o toldo."
+  whatsapper-php: "/usr/bin/php"
+  whatsapper-script: "/home/cainanan/Senra/whatsapper/whatsapper.php"
+  state-file: "/home/cainanan/Senra/wind-alert/data/state.json"
+  dry-run: false
